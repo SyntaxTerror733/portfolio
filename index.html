@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+        body{
+           background: #799eb0;
+background: linear-gradient(90deg, rgba(121, 158, 176, 1) 0%, rgba(126, 135, 132, 1) 0%, rgba(150, 150, 135, 1) 100%);
+        }
+        .cont{
+            display: flex;
+            
+        }
+          .left {
+      flex: 0 0 300px; 
+      border: 2px solid black;
+    
+    }
+    .left img {
+      width: 100%;
+      height: 150%;
+      object-fit: cover;
+      display: block;
+      
+      
+    }
+      .right {
+      flex: 1;
+      padding-left: 4px;
+      padding-top: 0px;
+      color: #2e0d0dc1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+    }
+    .name:hover{
+        color: rgb(201, 194, 194);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .name{
+        display: flex;
+        text-align: center;
+        cursor:pointer;
+      transition: all .25s ease-in-out;
+       
+        
+    }
+    .right h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+       text-decoration: underline;
+      
+    }
+    .right p {
+        margin-left: -8px;
+      font-size: .8rem;
+      margin-top: 16px;
+      text-decoration: none;
+    }
+
+    .about {
+      padding: 0px;
+      color: rgb(95, 57, 57);
+    }
+
+    .about h2 {
+      font-size: 1.5rem;
+      text-decoration: none;
+        transition: all .25s ease-in-out;
+        cursor: pointer;
+    }
+    .about h2:hover{
+        color: white;
+        font-size: 25px;
+    }
+    .about p{
+        padding-left: 7px;
+        font-size: larger;
+    }
+    .link{
+        text-decoration: none;
+        color: rgb(94, 97, 100);
+    }
+     .awards h2 {
+      font-size: 1.5rem;
+      text-decoration: none;
+        transition: all .25s ease-in-out;
+        cursor: pointer;
+    }
+    .awards {
+        margin-top: 20px;
+      padding: 0px;
+      color: rgb(95, 57, 57);
+      
+    }
+    .awards h2:hover{
+        color: white;
+        font-size: 25px;
+    }
+     .awards p{
+        padding-left: 7px;
+        font-size: larger;
+    }
+     .honors h2 {
+      font-size: 1.5rem;
+      text-decoration: none;
+        transition: all .25s ease-in-out;
+        cursor: pointer;
+    }
+    .honors {
+        margin-top: 20px;
+      padding: 0px;
+      color: rgb(95, 57, 57);
+      
+    }
+    .honors h2:hover{
+        color: white;
+        font-size: 25px;
+    }
+     .honors p{
+        padding-left: 7px;
+        font-size: larger;
+    }
+    .tble{
+      margin-top: 20px;
+    }
+    .tble td{
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+<div class="cont">
+    <div class="left">
+        <img src="https://i.pinimg.com/736x/d4/8e/2b/d48e2b7931c73dd59e1b2230c2d4b662.jpg" alt="">
+    </div>
+    <div class="right">
+        <div class="name">
+        <h2 class="name">Magnus Carlsen&nbsp </h2><p>{The Chess Prodigy}</p></div>
+        <div class="about">
+        <h2>Info</h2>
+        <p>Became a chess prodigy: earned GM title at just 13 years, 148 days (one of the youngest ever).<br>
+
+In 2010, at age 19, became world no. 1 in FIDE rankings.<br>
+
+In 2013, defeated Viswanathan Anand to become World Chess Champion.<br>
+
+Successfully defended the title against Anand (2014), Sergey Karjakin (2016), Fabiano Caruana (2018), and Ian Nepomniachtchi (2021).<br>
+
+In 2023, he chose not to defend his world championship title, but remains the highest-rated player in the world.<br>
+ Here's a wiki information for Mr Carlsen <a class="link" href="https://en.wikipedia.org/wiki/Magnus_Carlsen">Link...</a> </p>
+      </div>
+        <div class="awards">
+        <h2>Achievements</h2>
+        <p>Classical World Chess Champion (2013–2023) 
+<br>
+
+World Rapid Chess Champion (multiple times) 
+<br>
+World Blitz Chess Champion (multiple times) 
+<br>
+
+Winner of the FIDE World Cup (first FIDE World Cup win in 2023).
+      </div>
+        <div class="honors">
+        <h2>Honors</h2>
+        <p>Chess Oscar — awarded the “best player” by Russian chess magazine 64 several times (2009-2013). 
+<br>
+Peer Gynt Prize (2011) — a major Norwegian cultural award for outstanding achievement in society.
+<br>
+Named one of Time magazine’s 100 Most Influential People in the World (2013).
+<br>
+
+VG “Name of the Year” (Årets navn) — a Norwegian news award (2009, 2013). <br>
+Dagbladet People’s Choice “Sportsman of the Year” several times (e.g. 2009, 2012, 2013, 2014, 2016).
+      </div>
+   
+
+<table class="tble" border="1" >
+    <tr>
+        <th>2003</th>
+        <th>2004</th>
+        <th>2013</th>
+    </tr>
+    <tr>
+        <td>Became the International Master</td>
+        <td>Became the GrandMster</td>
+        <td>Became the World Champion</td>
+    </tr>
+</table>
+
+    </div>
+    </div>
+
+
+</body>
+</html>
